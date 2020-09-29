@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fs/nCOLOe58ve1YlfEQwxpbPcd2Ht5DZ+a4pjELLECiqbvgjKXhl3/1vA0mUa2blqAhHZjtCIOKWPwlwvjJyyg==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\BTL\\Nhom9.Docker_Kubernet.Demo\\Nhom9.Docker_Kubernet.Demo.Entity\\Nhom9.Docker_Kubernet.Demo.Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\mongodb.bson\\2.11.2\\mongodb.bson.2.11.2.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

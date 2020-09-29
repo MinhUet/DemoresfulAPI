@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "nhom9dockerkubernetdemoadmin.fullname" . }}
+  labels:
+    app: {{ template "nhom9dockerkubernetdemoadmin.name" . }}
+    chart: {{ template "nhom9dockerkubernetdemoadmin.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "nhom9dockerkubernetdemoadmin.name" . }}
+    release: {{ .Release.Name }}

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>78679335-b77d-4538-9dd9-1e84ea2d5191</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Kubernetes.Tools.Targets" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nhom9.Docker_Kubernet.Demo.Common\Nhom9.Docker_Kubernet.Demo.Common.csproj" />
+    <ProjectReference Include="..\Nhom9.Docker_Kubernet.Demo.DL\Nhom9.Docker_Kubernet.Demo.DL.csproj" />
+    <ProjectReference Include="..\Nhom9.Docker_Kubernet.Demo.Entity\Nhom9.Docker_Kubernet.Demo.Entity.csproj" />
+  </ItemGroup>
+
+
+</Project>

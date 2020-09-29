@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TjBaPCzwFAPQ7xG0wxNnG2Tm4wB/E3F/kECk/oB28DIrvly8FPn64kQCQ44lGK1YyNdpN+6WWySYthTcearITw==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\BTL\\Nhom9.Docker_Kubernet.Demo\\Nhom9.Docker_Kubernet.Demo.Common\\Nhom9.Docker_Kubernet.Demo.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

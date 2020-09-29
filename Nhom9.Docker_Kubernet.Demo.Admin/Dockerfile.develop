@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
+ARG BUILD_CONFIGURATION=Debug
+ENV ASPNETCORE_ENVIRONMENT=Development
+ENV ASPNETCORE_URLS=http://+:80
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+EXPOSE 80
+
+WORKDIR /src
+COPY ["Nhom9.Docker_Kubernet.Demo.Admin/Nhom9.Docker_Kubernet.Demo.Admin.csproj", "Nhom9.Docker_Kubernet.Demo.Admin/"]
+COPY ["Nhom9.Docker_Kubernet.Demo.Common/Nhom9.Docker_Kubernet.Demo.Common.csproj", "Nhom9.Docker_Kubernet.Demo.Common/"]
+COPY ["Nhom9.Docker_Kubernet.Demo.DL/Nhom9.Docker_Kubernet.Demo.DL.csproj", "Nhom9.Docker_Kubernet.Demo.DL/"]
+COPY ["Nhom9.Docker_Kubernet.Demo.Entity/Nhom9.Docker_Kubernet.Demo.Entity.csproj", "Nhom9.Docker_Kubernet.Demo.Entity/"]
+
+RUN dotnet restore "Nhom9.Docker_Kubernet.Demo.Admin/Nhom9.Docker_Kubernet.Demo.Admin.csproj"
+COPY . .
+WORKDIR "/src/Nhom9.Docker_Kubernet.Demo.Admin"
+RUN dotnet build --no-restore "Nhom9.Docker_Kubernet.Demo.Admin.csproj" -c $BUILD_CONFIGURATION
+
+RUN echo "exec dotnet run --no-build --no-launch-profile -c $BUILD_CONFIGURATION --" > /entrypoint.sh
+
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh"]

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.8" />
+    <PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nhom9.Docker_Kubernet.Demo.Common\Nhom9.Docker_Kubernet.Demo.Common.csproj" />
+    <ProjectReference Include="..\Nhom9.Docker_Kubernet.Demo.Entity\Nhom9.Docker_Kubernet.Demo.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

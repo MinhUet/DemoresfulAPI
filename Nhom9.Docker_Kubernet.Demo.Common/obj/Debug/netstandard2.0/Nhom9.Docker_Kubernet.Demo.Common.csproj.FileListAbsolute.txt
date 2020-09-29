@@ -1,0 +1,9 @@
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\bin\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.deps.json
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\bin\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.dll
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\bin\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.pdb
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.csprojAssemblyReference.cache
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.AssemblyInfoInputs.cache
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.AssemblyInfo.cs
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.csproj.CoreCompileInputs.cache
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.dll
+D:\C#\BTL\Nhom9.Docker_Kubernet.Demo\Nhom9.Docker_Kubernet.Demo.Common\obj\Debug\netstandard2.0\Nhom9.Docker_Kubernet.Demo.Common.pdb

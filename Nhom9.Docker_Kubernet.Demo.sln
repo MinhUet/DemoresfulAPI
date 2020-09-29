@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nhom9.Docker_Kubernet.Demo.Admin", "Nhom9.Docker_Kubernet.Demo.Admin\Nhom9.Docker_Kubernet.Demo.Admin.csproj", "{819428AD-1FA7-43DD-A0F0-3EDBDF391CF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C145E580-6812-4BC3-BB2C-0370442B7E0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nhom9.Docker_Kubernet.Demo.DL", "Nhom9.Docker_Kubernet.Demo.DL\Nhom9.Docker_Kubernet.Demo.DL.csproj", "{EF3854F8-7A45-4108-8B2D-746AF434DFEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nhom9.Docker_Kubernet.Demo.Entity", "Nhom9.Docker_Kubernet.Demo.Entity\Nhom9.Docker_Kubernet.Demo.Entity.csproj", "{EFE44637-6B79-42A7-B26F-409C1EF31652}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{54BA90CB-DB86-4AB5-998A-B45FDBEB3F0F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nhom9.Docker_Kubernet.Demo.Common", "Nhom9.Docker_Kubernet.Demo.Common\Nhom9.Docker_Kubernet.Demo.Common.csproj", "{29697779-E8DF-416F-80B7-8CDBA00EF7CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{819428AD-1FA7-43DD-A0F0-3EDBDF391CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819428AD-1FA7-43DD-A0F0-3EDBDF391CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819428AD-1FA7-43DD-A0F0-3EDBDF391CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819428AD-1FA7-43DD-A0F0-3EDBDF391CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3854F8-7A45-4108-8B2D-746AF434DFEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3854F8-7A45-4108-8B2D-746AF434DFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3854F8-7A45-4108-8B2D-746AF434DFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3854F8-7A45-4108-8B2D-746AF434DFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE44637-6B79-42A7-B26F-409C1EF31652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE44637-6B79-42A7-B26F-409C1EF31652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE44637-6B79-42A7-B26F-409C1EF31652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE44637-6B79-42A7-B26F-409C1EF31652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29697779-E8DF-416F-80B7-8CDBA00EF7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29697779-E8DF-416F-80B7-8CDBA00EF7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29697779-E8DF-416F-80B7-8CDBA00EF7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29697779-E8DF-416F-80B7-8CDBA00EF7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF3854F8-7A45-4108-8B2D-746AF434DFEC} = {C145E580-6812-4BC3-BB2C-0370442B7E0E}
+		{EFE44637-6B79-42A7-B26F-409C1EF31652} = {C145E580-6812-4BC3-BB2C-0370442B7E0E}
+		{29697779-E8DF-416F-80B7-8CDBA00EF7CC} = {C145E580-6812-4BC3-BB2C-0370442B7E0E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {922BF9B2-5B9E-4540-9A27-FE32231F4929}
+	EndGlobalSection
+EndGlobal
